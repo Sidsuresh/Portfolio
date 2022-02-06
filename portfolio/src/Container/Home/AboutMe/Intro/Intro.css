@@ -1,0 +1,61 @@
+.intro-container{
+    display: grid;
+    /* background-image: url('../../../../Assets/Home/abt1.png'); */
+    /* background-repeat: no-repeat;
+    background-size: 900px 340px; */
+    grid-template-columns: repeat(2,0.5fr);
+    color: black;
+    text-align: left;
+    gap: 0%;
+    height: 100%;
+}
+
+.intro-info{
+    grid-column: 1;
+    grid-row: 1;
+    text-align: justify;
+    padding: 5%;
+    width: 450px;
+}
+
+.intro-text{
+    position: relative;
+    top: 20%;
+}
+
+.intro-list{
+    grid-column: 2;
+    grid-row: 1;
+    text-align: justify;
+    text-justify: inter-word;
+    padding: 3%;
+    position: relative;
+}
+
+.intro-heading{  
+    font-weight: bold;
+    color: darkslateblue;
+    text-decoration: underline;
+}
+
+.intro-hlgt{
+    position: relative;
+    top: 3%;
+}
+
+.intro-hlgt ul{
+    color: black;
+    list-style: none;
+}
+
+.intro-hlgt li{
+    font-size: 1.2rem;
+    padding: 2px;
+} 
+
+.intro-hlgt li::before{
+    content: "\2023";
+    color: darkorange;
+    font-size: 2rem;
+    padding: 10px;
+}

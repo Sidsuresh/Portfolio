@@ -1,0 +1,38 @@
+.navbar {
+  position: sticky;
+  top: 0;
+  font-weight: bold;
+  font-size: 17px;
+  background-color: white;
+  height: 75px;
+}
+
+.navbar ul {
+  justify-content: right;
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+}
+
+.navbar li{
+    margin: 10px;
+}
+
+.navbar a {
+  color: rgb(97, 191, 223);
+  margin: 10px;
+  text-decoration: none;
+  background-image: linear-gradient(rgb(97, 191, 223), rgb(61, 202, 202));
+  background-size: 0% 0.15em;
+  background-position-y: 100%;
+  background-position-x: 0%;
+  background-repeat: no-repeat;
+  transition: background-size 0.2s ease-in-out;
+}
+
+.navbar a:hover, a:active, a:focus {
+  color: rgb(61, 202, 202);
+  background-size: 100% 0.15em;
+}

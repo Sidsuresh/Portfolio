@@ -1,0 +1,16 @@
+.project-section-container{
+    margin-top: 5%;
+    padding: 0.1px;
+    background-image: url('../../../Assets/Home/bg1.jpg');
+    background-size: 1520px 1007px;
+    background-repeat: no-repeat;
+    color: white;
+    font-weight: bold;
+}
+
+.project-section-heading{
+    margin-top: 5%;
+    font-size: 40px;
+}
+
+

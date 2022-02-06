@@ -1,0 +1,104 @@
+.about-container{
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+.about-heading{
+    margin-top: 5%;
+    margin-bottom: 2%;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.about-content {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    display: grid;
+    grid-template-columns: 0.75fr 2fr;
+    justify-content: space-evenly;
+    /* background: lightgray; */
+    flex-direction: column;
+    min-height: 340px;
+    max-height: 340px;
+    width: 90%;
+    /* box-shadow: 0 0px 20px rgba(0,0,0,0.4); */
+    font-size: 1.2rem;
+    margin-bottom: 2%;
+    /* text-align: left; */
+    /* font-family: 'Hahmlet', serif; */
+}
+
+.about-sidebar{
+    /* position: relative; */
+    background-color: white;
+    /* border-right: 1px solid red; */
+    box-shadow: 8px 0 5px -6px rgba(0,0,0,0.4);
+    align-items: left;
+    text-align: left;
+}
+
+
+.about-sidebar ul{
+    padding: 3%;
+    list-style-type: none;
+}
+
+.about-list{
+    position: relative;
+    top: 37px;
+}
+
+.about-block{
+    display: grid;
+    margin: 1%;
+    grid-template-columns: 0.15fr 0.9fr;
+    font-size: 1rem;
+}  
+
+.about-icons{
+    grid-column: 1;
+    grid-row: 1;
+    padding: 17px 18px;
+    font-size: 1.2rem;
+    background-color: rgb(41, 41, 90);
+    border: none;
+    color: whitesmoke;
+}
+
+.about-button{
+    grid-column: 2;
+    grid-row: 1;
+    font-size: 0.9rem;
+    border-radius: 0%;
+    height: 100%;
+    padding: 17px 18px;
+    text-align: left;
+    width: 100%;
+    border: none;
+    background-color: white;
+}
+
+.about-button:hover{
+    color: white;
+    background-color: rgb(24, 24, 54);
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.about-button-active{
+    grid-column: 2;
+    grid-row: 1;
+    font-size: 0.9rem;
+    border-radius: 0%;
+    height: 100%;
+    padding: 17px 18px;
+    text-align: left;
+    width: 100%;
+    background-color: none;
+    border: none;
+    color: white;
+    background-color: rgb(24, 24, 54);
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+}

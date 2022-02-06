@@ -1,0 +1,38 @@
+.interest-container{
+    padding: 2%;
+    color: black;
+    height: 100%;
+    text-align: justify;
+}   
+
+.interest-list ul{
+    list-style: none;
+}
+
+.interest-list li{
+    margin: 5px;
+}
+
+/* .interest-list li::before{
+    content: "\2023";
+    color: darkorange;
+    font-size: 1rem;
+} */
+
+.interest-header{
+    font-size: 1.1rem;
+    color: darkslateblue;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.interest-header-2{
+    font-size: 1.1rem;
+    color: rgba(252, 148, 22, 0.877);
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.interest-info{
+    font-size: 1rem;
+}

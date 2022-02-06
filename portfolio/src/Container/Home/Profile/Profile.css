@@ -1,0 +1,92 @@
+.profile-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    background-image: url('../../../Assets/Home/bg1.jpg');
+    background-size: 1520px 1007px;
+    background-repeat: no-repeat;
+}
+
+.profile-parent{
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.profile-details{
+    margin: 20px;
+    height: fit-content;
+    width: 700px;
+}
+
+.profile-details-name{
+    text-align: center;
+    position: relative;
+    left: 50%;
+    justify-content: center;
+    font-size: 50px;
+    font-family: "Poppins SemiBold";
+    transform: translate(-57%);
+}
+
+.profile-details-role h1{
+    font-family: cursive;
+}
+
+.profile-details-desc{
+    font-size: 20px;
+    margin: 20px 0px 20px 0px;
+    width: 500px;
+}
+
+.resume-btn {
+    color: white;
+    border: 2px solid linen;
+    font-size: 15px;
+    background-color: transparent;
+}
+
+.resume-btn:hover {
+    color: #0d0e0c;
+    background-color: white;
+    border: 2px solid black;
+}
+
+.cols-icon{
+    padding-left: 10px;
+    margin: 10px 5px 5px 0px;
+    font-size: 24px;
+}
+
+.cols-icon a{
+    margin-left: 1px;
+    padding-right: 12px;
+    color: white;
+}
+
+.profile-picture{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    height: 300px;
+    width: 300px;
+    margin-right: 100px;
+    border-radius: 50%;
+    box-shadow: 0 1px 0 0 whitesmoke;
+}
+
+.profile-picture-background{
+    height: 92%;
+    width: 92%;
+    background-image: url('../../../Assets/Home/Photo.jpg');
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.profile-picture-background:hover{
+    transform: scale(1.07);
+    transition: 2s ease-in-out   
+}
