@@ -13,7 +13,7 @@ function App() {
         <NavBar />
 
         <Routes >
-          <Route path='/' exact element={ <HomePage /> }/>
+          <Route path='/Portfolio' exact element={ <HomePage /> }/>
           {/* <Route path='/about-me' exact element= { <AboutMe /> }/> */}
           {/* <Route path='/projects' exact element= { <Projects /> }/> */}
           {/* <Route path='/contact-me' exact element= { <ContactMe /> }/> */}
