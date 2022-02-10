@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.1f6afb13.css",
+    "main.js": "/Portfolio/static/js/main.62e2aabf.js",
+    "static/js/787.86e70ff7.chunk.js": "/Portfolio/static/js/787.86e70ff7.chunk.js",
+    "static/media/Smart_DB.jpg": "/Portfolio/static/media/Smart_DB.034c79510ae913976ac0.jpg",
+    "static/media/Poppins-Thin.ttf": "/Portfolio/static/media/Poppins-Thin.a61eaf4c2e4d44d6db6a.ttf",
+    "static/media/Poppins-Light.ttf": "/Portfolio/static/media/Poppins-Light.f41b63c0bb0963ace821.ttf",
+    "static/media/Poppins-Regular.ttf": "/Portfolio/static/media/Poppins-Regular.8081832fc5cfbf634aa6.ttf",
+    "static/media/Poppins-Medium.ttf": "/Portfolio/static/media/Poppins-Medium.9e1bb626874ed49aa343.ttf",
+    "static/media/Poppins-SemiBold.ttf": "/Portfolio/static/media/Poppins-SemiBold.cce5625b56ec678e4202.ttf",
+    "static/media/Poppins-Bold.ttf": "/Portfolio/static/media/Poppins-Bold.404e299be26d78e66794.ttf",
+    "static/media/Poppins-ExtraBold.ttf": "/Portfolio/static/media/Poppins-ExtraBold.4ed78cd5d64af4efc3c7.ttf",
+    "static/media/Sage.png": "/Portfolio/static/media/Sage.d52cdfb69a2c2a323f6d.png",
+    "static/media/contact.png": "/Portfolio/static/media/contact.92325d218df46c9a4446.png",
+    "static/media/Encrypt.jpg": "/Portfolio/static/media/Encrypt.be9c20f66c78274a7f59.jpg",
+    "static/media/Photo.jpg": "/Portfolio/static/media/Photo.6e4185b2da8587617dea.jpg",
+    "static/media/bg1.jpg": "/Portfolio/static/media/bg1.7cbde48a24443588989c.jpg",
+    "static/media/FinanceLock.jpg": "/Portfolio/static/media/FinanceLock.849b3931e26bb51cc77d.jpg",
+    "index.html": "/Portfolio/index.html",
+    "main.1f6afb13.css.map": "/Portfolio/static/css/main.1f6afb13.css.map",
+    "main.62e2aabf.js.map": "/Portfolio/static/js/main.62e2aabf.js.map",
+    "787.86e70ff7.chunk.js.map": "/Portfolio/static/js/787.86e70ff7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1f6afb13.css",
+    "static/js/main.62e2aabf.js"
+  ]
+}
